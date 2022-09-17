@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Noticias aeras</title>
+	<meta charset="UTF-8">
+	<meta lang="es">
+	<meta name="Description" content="Son las 5 noticias sobre el tema de drones">
+	<meta name="keywords" content="Drones">
+	<meta name="author" content="Sergi.C">
+	<link type="text/css" rel="stylesheet" href="estilo.css">
+	<link rel="shortcut icon" href="media/drony.png" />
+</head>
+
+<body>
+
+	<div class="header">
+		<img class="logo" src="media/logo.png">
+		<h1>NOTICIAS AÉREAS</h1>
+		<p>Las noticas de drones</p>
+	</div>
+
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html"><img id="homeicon" src="media/casa.png"> HOME</a></li>
+			<li><a href="index.html"><img id="homeicon" src="media/noticias.png"> NOTICIAS</a>
+				<ul>
+					<li><a href="Noticia1.html">NOTICIA 1</a></li>
+					<li><a href="Noticia2.html">NOTICIA 2</a></li>
+					<li><a href="Noticia3.html">NOTICIA 3</a></li>
+					<li><a href="Noticia4.html">NOTICIA 4</a></li>
+					<li><a href="Noticia5.html">NOTICIA 5</a></li>
+				</ul>
+			</li>
+			<li><a href="Actividades.html"><img id="homeicon" src="media/Actividad.png"> ACTIVIDADES</a>
+				<ul>
+					<li><a href="Actividad1.html">ACTIVIDAD 1</a></li>
+					<li><a href="Actividad2.html">ACTIVIDAD 2</a></li>
+					<li><a href="Actividad3.html">ACTIVIDAD 3</a></li>
+					<li><a href="Actividad4.html">ACTIVIDAD 4</a></li>
+					<li><a href="Actividad5.html">ACTIVIDAD 5</a></li>
+					<li><a href="Actividad6.html">ACTIVIDAD 6</a></li>
+				</ul>
+			</li>
+			<li><a href="tabla.html"><img id="homeicon" src="media/tabla.png"> TABLA</a></li>
+			<li><a href="contacta.html"><img id="homeicon" src="media/contacto.png"> CONTACTO</a></li>
+			<li><a href="media.html"><img id="homeicon" src="media/media.png"> MEDIA</a></li>
+		</ul>
+
+	</nav>
+
+	<div class="row">
+		<section class="leftcolumn" >
+			<div class="card" >
+                <form name="formulari">
+                    <label for="nom" >Nom: </label>&nbsp;
+                    <input name="nom" id="nom" type="text" required><br><br>
+            
+                    <label for="Mail">Mail: </label>&nbsp;
+                    <input name="mail" id="email" type="email" required><br><br>
+            
+                    <label for="Password">Password:</label>&nbsp;
+                    <input type="password" id="pass" name="pass" required><br><br>
+                    <label for="Password">Confirmacio Password: </label>&nbsp;
+                    <input type="password" id="pass2" name="pass2" required><br><br>
+            
+            
+                    <label for="comunitat">Comunitat: </label>
+                    <input type="radio" name="comunitat" id="Catalunya" value="Catalunya" required>
+                    <label for="comunitat" >Catalunya </label>
+                    <input type="radio" name="comunitat" id="Altres" value="Altres">
+                    <label for="comunitat">Altres </label>
+                    <br><br>
+            
+                    <label for="provincia">Provincia: </label>&nbsp;
+                    <select name="provincia" id="provincias" required>
+                        <option value=""> </option>
+                        <option value="Cap Provincia">Cap provincia</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Tarragona">Tarragona</option>
+                        <option value="Girona">Girona</option>
+                        <option value="lleida">lleida</option>
+                    </select>
+                    <br><br>
+                    <label for="DateNaixament">Data de naixament: </label>&nbsp;
+                    <input type="date"  name="DateNaixament" id="DateNaixament" required><br>
+                    <br><br>
+                    <button type="submit" onclick=validar()>Validar</button>&nbsp;
+                    <button type="reset" onclick=limpiar()>Reset</button>
+                </form><br>
+                <br>
+               <div id="mensaje"></div>
+			</div>
+		</section>
+		<div class="rightcolumn">
+			<nav class="cardnoticias">
+				<h2>Noticias</h2>
+				<ul>
+					<li><a href="Noticia1.html">NOTICIA 1</a></li>
+					<li><a href="Noticia2.html">NOTICIA 2</a></li>
+					<li><a href="Noticia3.html">NOTICIA 3</a></li>
+					<li><a href="Noticia4.html">NOTICIA 4</a></li>
+					<li><a href="Noticia5.html">NOTICIA 5</a></li>
+				</ul>
+			</nav>
+
+		</div>
+		<aside>
+			<p>(Anuncio)</p>
+		</aside>
+	</div>
+	<footer>
+		<div class="flex-container">
+			<a href="https://www.instagram.com/sergicg17/" class="instagram"><img id="instagram"
+					src="media/instagram.png"></a>
+			<a href="https://twitter.com/SSergii7" class="twitter"><img id="twitter" src="media/twitter.png"></a>
+			&copy; 2021 Sergi Castillejo Gonzalez
+		</div>
+	</footer>
+	<script src="javascript5.js"></script>
+</body>
+
+</html>

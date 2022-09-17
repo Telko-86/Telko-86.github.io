@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Noticias aeras</title>
+	<meta charset="UTF-8">
+	<meta lang="es">
+	<meta name="Description" content="Son las 5 noticias sobre el tema de drones">
+	<meta name="keywords" content="Drones">
+	<meta name="author" content="Sergi.C">
+	<link type="text/css" rel="stylesheet" href="estilo.css">
+	<link rel="shortcut icon" href="media/drony.png" />
+</head>
+
+<body>
+
+	<div class="header">
+		<img class="logo" src="media/logo.png">
+		<h1>NOTICIAS AÉREAS</h1>
+		<p>Las noticas de drones</p>
+	</div>
+
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html"><img id="homeicon" src="media/casa.png"> HOME</a></li>
+			<li><a href="index.html"><img id="homeicon" src="media/noticias.png"> NOTICIAS</a>
+				<ul>
+					<li><a href="Noticia1.html">NOTICIA 1</a></li>
+					<li><a href="Noticia2.html">NOTICIA 2</a></li>
+					<li><a href="Noticia3.html">NOTICIA 3</a></li>
+					<li><a href="Noticia4.html">NOTICIA 4</a></li>
+					<li><a href="Noticia5.html">NOTICIA 5</a></li>
+				</ul>
+			</li>
+			<li><a href="Actividades.html"><img id="homeicon" src="media/Actividad.png"> ACTIVIDADES</a>
+				<ul>
+					<li><a href="Actividad1.html">ACTIVIDAD 1</a></li>
+					<li><a href="Actividad2.html">ACTIVIDAD 2</a></li>
+					<li><a href="Actividad3.html">ACTIVIDAD 3</a></li>
+					<li><a href="Actividad4.html">ACTIVIDAD 4</a></li>
+					<li><a href="Actividad5.html">ACTIVIDAD 5</a></li>
+					<li><a href="Actividad6.html">ACTIVIDAD 6</a></li>
+				</ul>
+			</li>
+			<li><a href="tabla.html"><img id="homeicon" src="media/tabla.png"> TABLA</a></li>
+			<li><a href="contacta.html"><img id="homeicon" src="media/contacto.png"> CONTACTO</a></li>
+			<li><a href="media.html"><img id="homeicon" src="media/media.png"> MEDIA</a></li>
+		</ul>
+
+	</nav>
+
+	<div class="row">
+		<section class="leftcolumn">
+			<div class="card">
+				<div id="poke"></div>
+				<div id="img"></div>
+
+				<form name="formulario" method="post">
+
+					<br><br>
+					<select name="pokemon" id="select">
+						<option value="10">Mal Lanzamiento</option>
+						<option value="50">Buen Lanzamiento</option>
+						<option value="70">Gran Lanzamiento</option>
+						<option value="85">Excelente Lanzamiento</option>
+					</select>
+					<br><br>
+					<a>¿Qué pokeBall quieres usar?</a>
+					<select name="pokemon" id="pokeballs">
+						<option value="0">PokeBall</option>
+						<option value="10">Superball</option>
+						<option value="20">UltraBall</option>
+						<option value="100">Masterball</option>
+					</select>
+					<br><br>
+					<input type="radio" name="pokemon" required value="raro">Pokemon Go es raro<br>
+					<input type="radio" name="pokemon" value="normal">Pokemon Go es normal<br>
+					<br>
+					<input type="radio" name="tiro" value="bola curva">El tiro es de bola curva<br>
+					<input type="radio" name="tiro" value="bola normal">El tiro es de bola normal<br>
+					<input type="button" value="Calcular" onclick="calcularPorcentaje()">
+				</form>
+
+				<div class="card">
+					<div id="probabilidad"></div>
+					<div id="tiro"></div>
+					<div id="tirbola"></div>
+
+					<div id="totalCaptura"></div>
+					<div id="tipoPokemon"></div>
+
+					<div id="resultado"></div>
+					<div id="resultadoFinal"></div>
+				</div>
+
+			</div>
+		</section>
+		<div class="rightcolumn">
+			<nav class="cardnoticias">
+				<h2>Noticias</h2>
+				<ul>
+					<li><a href="Noticia1.html">NOTICIA 1</a></li>
+					<li><a href="Noticia2.html">NOTICIA 2</a></li>
+					<li><a href="Noticia3.html">NOTICIA 3</a></li>
+					<li><a href="Noticia4.html">NOTICIA 4</a></li>
+					<li><a href="Noticia5.html">NOTICIA 5</a></li>
+				</ul>
+			</nav>
+
+		</div>
+		<aside>
+			<p>(Anuncio)</p>
+		</aside>
+	</div>
+	<footer>
+		<div class="flex-container">
+			<a href="https://www.instagram.com/sergicg17/" class="instagram"><img id="instagram"
+					src="media/instagram.png"></a>
+			<a href="https://twitter.com/SSergii7" class="twitter"><img id="twitter" src="media/twitter.png"></a>
+			&copy; 2021 Sergi Castillejo Gonzalez
+		</div>
+	</footer>
+	<script src="pokemon.js"></script>
+</body>
+
+</html>
