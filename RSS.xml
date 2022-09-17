@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		
+		<title>Noticias aereas</title>
+		<link>https://sergicastillejoasix1b.bernat2022.tk/m04/index.html</link>
+		<description>Aqui estaras actualitzat al dia ya que pujem tota infomracio sobre els drons</description>
+		<copyright>Copyright 2022 Noticias aeras</copyright>
+		<item>
+			<title>España pisa el acelerador de los drones y aerotaxis autónomos</title>
+			<link>https://sergicastillejoasix1b.bernat2022.tk/m04/Noticia1.html</link>
+			<description>El primer aerotaxi de patente española ya realiza vuelos de prueba, y podría estar operativo en 2026</description>
+		</item>
+		<item>
+			<title>Drones chivatos</title>
+			<link>https://sergicastillejoasix1b.bernat2022.tk/m04/Noticia2.html</link>
+			<description>Si el Ayuntamiento controla las bullas con estos aparatos, lo suyo sería apuntar lo que les interese y borrar las cintas el mismo Domingo de Pascua por la noche</description>
+		</item>
+		<item>
+			<title>Los drones, un auténtico peligro en manos de grupos terroristas por su fácil manejo</title>
+			<link>https://sergicastillejoasix1b.bernat2022.tk/m04/Noticia3.html</link>
+			<description>El reciente atentado contra el primer ministro iraquí demuestra la aparente facilidad de estos ingenios para superar “barreras de seguridad”</description>
+		</item>
+		<item>
+			<title>Los drones hacen posible lo imposible</title>
+			<link>https://sergicastillejoasix1b.bernat2022.tk/m04/Noticia4.html</link>
+			<description>Desde supervisar infraestructuras a extinguir incendios o alimentar a perros atrapados por la lava en La Palma</description>
+		</item>
+	</channel>
+</rss>
